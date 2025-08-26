@@ -1,0 +1,416 @@
+.content_big_title {
+    font-size: 32px;
+    font-weight: normal;
+    margin-bottom: 35px;
+    padding-bottom: 18px;
+    /* border-bottom: 1px solid #ffffff; */
+    color: white;
+}
+
+.content_container {
+width: 60%;
+margin: 70px 20%;
+float: right;
+font-size: 17px;
+line-height: 24px;
+}
+
+.content_title {
+    font-weight: bold;
+    margin-top: 22px;
+    margin-bottom: 30px;
+}
+
+.content_title.contact {
+    font-size: 24px;
+    text-align: center;
+    color: #938f8f;
+}
+
+.bulles{
+    margin-right: 45px;  
+    line-height: 30px;
+}
+
+.bulles>div.bulle01 
+{
+    margin-right: -40px;
+    margin-top: 4px;
+}
+
+img.cfigure {
+    width: 980px;
+    height: auto;
+    /* border: 3px solid #999;*/
+    margin: 25px;
+    padding: 15px;
+    /* background-color: #f1f2f2; */
+}
+
+.content_body.contact {
+    width: 100%;
+    float: right;
+}
+
+a.crm.unique_crm_btn {
+    float: right;
+    font-size: 20px;
+    padding: 20px;
+    min-width: 150px;
+    text-align: center;
+    margin-bottom: 20px;
+    width: 46%;
+    margin-right: 27% !important;
+    margin-left: 27% !important;
+}
+
+a.crm {
+    float: right;
+    font-size: 20px;
+    padding: 20px;
+    min-width: 150px;
+    text-align: center;
+    margin-bottom: 20px;
+    width: 46%;
+    margin-right: 2% !important;
+    margin-left: 2% !important;
+}
+
+
+@media (max-width: 660px) {
+    a.crm {
+        width: 92%;
+        margin-right: 4% !important;
+        margin-left: 4% !important;
+    }
+}
+
+
+
+.content_container.contact {
+    min-height: 550px;
+}
+
+.content_remak {
+    color: #0063c9;
+    font-size: 15px;
+}
+
+
+.content_form_bg {
+    width: 100%;
+    background-color : transparent;
+    min-height: 850px;
+    float: right;
+    padding-bottom: 80px;
+}
+
+.content_form {
+    width: 42%;
+    min-width: 198px;
+    margin: 0 8% 33px 0;
+    position: relative;
+    max-width: 100%;
+    min-height: 989px;
+    padding: 0;
+    background-color: #fff;
+    /* border-right: 1px solid #c0c0c024; */
+    /* border-left: 1px solid #c0c0c024; */
+    float: right;
+}
+
+.info_form {
+    width: 42%;
+    min-width: 198px;
+    margin: 0 2% 33px 6%;
+    position: relative;
+    max-width: 100%;
+    min-height: 120px;
+    padding: 0;
+    background-color: #c7eaefa8 !important;
+    float: right;
+    border: 1px solid #93bfc5;
+}
+
+
+div.content_form>form>.in-group-customer_data {
+    min-height: 987px !important;
+}
+
+.content_big_title.registration {
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 25px !important;
+    width: 60%;
+    margin-right: 20%;
+    margin-left: 20%;
+    float: right;
+    font-size: 34px;
+    font-weight: bold;
+    color: #93959f !important;
+    /* text-shadow: 4px 4px 8px #f2f9f8;*/
+}
+
+@media (max-width: 660px) {
+    .content_big_title.registration {
+        text-align: center;
+        margin-top: 35px;
+        width: 86%;
+        margin-right: 7%;
+        margin-left: 7%;
+    }
+
+    .cms_bg_pic {
+        width: 100% !important;
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+    }
+}
+
+.register_pic {
+    width: 42%;
+    min-width: 198px;
+    margin: 0 2% 33px 6%;
+    position: relative;
+    max-width: 100%;
+    min-height: 877px;
+    padding: 0;
+    background-color: #fff;
+    float: right;
+    background-image: url(../pic/crm-welcome.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    border: 1px solid #c0c0c0d9;
+}
+
+@media (max-width: 507px) {
+    .content_form {
+            width: 96% !important;  
+            margin: 0 2% 33px 2% !important; 
+    }
+
+    .register_pic {
+            width: 96% !important;  
+            margin: 0 2% 33px 2% !important; 
+    }
+}
+
+
+@media (max-width: 1107px) {
+    .content_form {
+            width: 80%;  
+            margin: 0 10% 33px 10%; 
+            min-height: fit-content;
+    }
+
+    .register_pic {
+            width: 80%;  
+            margin: 0 10% 33px 10%; 
+    }
+}
+
+div#fg-warn {
+    padding: 15px;
+    font-size: 18px;
+    background-color: #bed80e;
+    min-height: 80px;
+    height: max-content;
+    display: flow-root;
+}
+
+.register_success {
+    float: left;
+    width: 40%;
+    min-height: 350px;
+    min-width: 420px;
+    background-image: url(../pic/crm-slogo.png);
+    background-repeat: no-repeat;
+}
+
+.register_success_message {
+    float: left;
+    width: 100%;
+    min-height: 150px;
+    font-size: 24px;
+    padding: 25px;
+    border: none;
+    background-color: #ffffff47;
+}
+
+
+div.register_success_message > a {
+    border: solid 1px #6ea5b0;
+    color: #248da2;
+    font-size: 75%;
+    padding: 2px 15px;
+    background-color: #ffffff6e;
+    font-family: menu;
+}  
+
+@media (max-width: 1177px) {
+    .register_success {
+            width: 0;   
+            height: 0;
+            visibility: hidden;
+            display: none;
+    }
+
+    .register_success_message {
+            width: 100%;   
+    }
+}
+
+#container_div {
+    display: table !important;
+    width: 100%;
+}
+
+#container_left_div {
+    display: table-cell !important;
+}
+
+#container_right_div {
+    display: table-cell !important;
+}
+
+.table_div {
+    display: table !important;
+}
+
+.table_cell_div {
+    display: table-cell !important;
+    height: 100%;
+}
+
+.success_hzm {
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.greenbtn {
+    color: white !important;
+    background-color: #0c8d89;
+    border-color: #0c8d89;
+    margin-top: 10px;
+}
+
+/***************** swal nice can be applied for all - start ******************************/
+.swal-text {
+    font-size: 20px;
+    font-family: title;
+    color: #133d01;
+}
+
+.swal-icon--warning__body, .swal-icon--warning__dot {
+    background-color: #f81c05 !important;
+}
+
+
+.swal-icon--warning {
+    border-color: #f81c05 !important;
+}
+
+.swal-title {
+    color: rgb(184 2 2);
+    font-weight: normal;
+    font-size: 24px;
+}
+
+div.swal-title>span {
+    color: #550404;
+}
+
+.swal-button {
+    background-color: #157de5;
+    font-weight: normal;
+    font-size: 16px !important;
+}
+
+.swal-button--cancel {
+    color: #555;
+    background-color: #efefef !important;
+}
+
+.cms_center {
+    width: 100% !important;
+    float: right;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+    margin-bottom: 50px;
+}
+
+div.cms_center>div.modal-dialog.popup-content {
+    width: 100% !important;
+    max-width: none !important;
+    min-width: 0px !important;
+    margin: 0 !important;
+    overflow: hidden;
+}
+
+div.cms_center>div.modal-dialog.popup-content>div.modal-content {
+    width: 60% !important;
+    margin: 0;
+    margin-right: 20%;
+    margin-left: 20%;
+    max-width: none;
+}
+
+@media (max-width: 960px) {
+    div.cms_center>div.modal-dialog.popup-content>div.modal-content {
+        width: 70% !important;
+        margin-right: 15%;
+        margin-left: 15%;
+    }
+}
+
+@media (max-width: 760px) {
+    div.cms_center>div.modal-dialog.popup-content>div.modal-content {
+        width: 80% !important;
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+}
+
+@media (max-width: 560px) {
+    div.cms_center>div.modal-dialog.popup-content>div.modal-content {
+        width: 88% !important;
+        margin-right: 6%;
+        margin-left: 6%;
+    }
+}
+
+@media (max-width: 360px) {
+    div.cms_center>div.modal-dialog.popup-content>div.modal-content {
+        width: 100% !important;
+        margin-right: 0%;
+        margin-left: 0%;
+        font-size: smaller;
+        min-width: 180px !important;
+    }
+}
+
+div#container_channels_div {
+    background-image: none !important;
+    min-height: auto !important;
+}
+
+div#container_channels_div>div.modal-dialog.popup-content {
+    margin: 0 !important;
+    width: 100% !important;
+    padding: 0 !important;
+}
+
+div#container_channels_div>div.modal-dialog.popup-content>div.modal-content.content-annonce {
+    margin: 0 !important;
+    width: 100% !important;
+    /* padding: 0 !important; */
+    max-width: none !important;
+}
+
+
+
+
+
+/*****************   swal nice can be applied for all - end *****************************/

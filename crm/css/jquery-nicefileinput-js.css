@@ -1,0 +1,184 @@
+/*
+.NFI-wrapper {}
+.NFI-button {}
+.NFI-button:hover {}
+.NFI-filename {}
+.NFI-current {}
+*/
+
+/* Nice File Input */
+.nice {
+    border: solid #34abb5 1px;
+    background: #fff;
+    display: block;
+    width: 100%;
+    max-width: 360px;
+    box-shadow: 0 0 0 2px #fff;
+}
+.nice .NFI-button {
+    height: 40px;
+    line-height: 40px;
+    background: #369;
+    color: #fff;
+    width: 30%;
+}
+.nice .NFI-button:hover {
+    background: #147;
+}
+.nice .NFI-filename {
+    display: block;
+    width: 70%;
+    height: 40px;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+.nice .NFI-filename:focus {
+    border: none;
+}
+
+/* Test File Input */
+.test {
+    border: solid #cd465a 1px;
+}
+.test .NFI-button {
+    background: #cd465a;
+}
+.test .NFI-button:hover {
+    background: #9d162a;
+}
+
+a, div, input {
+	-moz-transition: all 0.5s ease-out;
+	-o-transition: all 0.5s ease-out;
+	-webkit-transition: all 0.5s ease-out;
+	-ms-transition: all 0.5s ease-out;
+	transition: all 0.5s ease-out;
+}
+
+
+
+
+.examples-list dt {
+	font-size: 13px;
+	border-bottom: dotted #ccc 1px;
+	margin: 0 0 5px 0;
+	padding: 0 0 5px 0;
+	display: list-item;
+	list-style: inside square;
+}
+.examples-list dd {
+	padding: 10px 0;
+}
+
+
+
+
+
+
+#download-link {
+	display: block;
+	float: left;
+	width: auto;
+	margin: 0 0 20px 0;
+	padding: 0 30px;
+	font-size: 12px;
+	text-align: center;
+	text-shadow: 0px -1px 0px #0172bd;
+	border: solid #0172bd 1px;
+	border-bottom: solid #00428d 1px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px; 
+
+	background-color: #0192DD;
+	background-image: linear-gradient(bottom, #047e7a 0%, #23bbb4 56%);
+	background-image: -o-linear-gradient(bottom, #047e7a 0%, #23bbb4 56%);
+	background-image: -moz-linear-gradient(bottom, #047e7a 0%, #23bbb4 56%);
+	background-image: -webkit-linear-gradient(bottom, #047e7a 0%, #23bbb4 56%);
+	background-image: -ms-linear-gradient(bottom, #047e7a 0%, #23bbb4 56%);
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0, #047e7a),
+		color-stop(0.56, #23bbb4)
+	);
+	
+	-webkit-box-shadow: inset 0px 1px 0px rgba(255,255,255,.2), 0px 1px 0px #fff, 0px -1px 0px rgba(0,0,0,.1);
+	-moz-box-shadow: inset 0px 1px 0px rgba(255,255,255,.2), 0px 1px 0px #fff, 0px -1px 0px rgba(0,0,0,.1);
+	box-shadow: inset 0px 1px 0px rgba(255,255,255,.2), 0px 1px 0px #fff, 0px -1px 0px rgba(0,0,0,.1); 	
+	
+	color: #fff;
+	height: 30px;
+	line-height: 30px;	
+}
+
+
+.nice {
+	font-family: arial;
+	font-size: 12px;
+	-webkit-box-shadow: 0px 1px 0px #fff, 0px -1px 0px rgba(0,0,0,.1);
+	-moz-box-shadow: 0px 1px 0px #fff, 0px -1px 0px rgba(0,0,0,.1);
+	box-shadow: 0px 1px 0px #fff, 0px -1px 0px rgba(0,0,0,.1); 
+	-moz-border-radius: 0px; 
+	-webkit-border-radius: 0px;
+	border-radius: 0px;
+}
+
+.nice .NFI-button {
+    -moz-border-radius-topleft: 3px;
+    -moz-border-radius-bottomleft: 3px;
+    -webkit-border-top-left-radius: 3px;
+    -webkit-border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    background-color: #a4d2da;
+    background-image: linear-gradient(bottom, #047e7a 0%, #23bbb4 56%);
+    background-image: -o-linear-gradient(bottom, #047e7a 0%, #23bbb4 56%);
+    background-image: -moz-linear-gradient(bottom, #047e7a 0%, #23bbb4 56%);
+    background-image: -webkit-linear-gradient(bottom, #047e7a 0%, #23bbb4 56%);
+    background-image: -ms-linear-gradient(bottom, #047e7a 0%, #23bbb4 56%);
+    background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0, #047e7a), color-stop(0.56, #23bbb4) );
+    text-shadow: 0px -1px 0px #a4d2da;
+    border: solid #93bfc5 1px;
+    border-bottom: solid #659ba4 1px;
+    -webkit-box-shadow: inset 0px 1px 0px rgb(255 255 255 / 20%);
+    -moz-box-shadow: inset 0px 1px 0px rgba(255,255,255,.2);
+    box-shadow: inset 0px 1px 0px rgb(255 255 255 / 20%);
+    color: #fff;
+    width: 30%;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 0;
+    font-family: 'menu';
+}
+
+.nice .NFI-button:hover {
+	background: #333;
+	text-shadow: 0px -1px 0px #111;
+	border: solid #000 1px;
+	
+}
+.nice .NFI-filename {
+	-moz-border-radius-topright: 0px; 
+	-moz-border-radius-bottomright: 0px;
+	-webkit-border-top-right-radius: 0px;
+	-webkit-border-bottom-right-radius: 0px;
+	border-top-right-radius: 0px; 
+	border-bottom-right-radius: 0px;
+
+    width: 70%;
+    border: none;
+	border-left: none;
+	height: 30px;
+	line-height: 30px;
+	
+	background: #fff;
+	-webkit-box-shadow: inset 0px 2px 0px rgba(0,0,0,.05);
+	-moz-box-shadow: inset 0px 2px 0px rgba(0,0,0,.05);
+	box-shadow: inset 0px 2px 0px rgba(0,0,0,.05); 
+
+	color: #777;
+	text-shadow: 0px 1px 0px #fff;
+}

@@ -1,0 +1,1 @@
+obsolete footer features js

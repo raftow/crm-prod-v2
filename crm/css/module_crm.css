@@ -1,0 +1,55 @@
+a.ccc.complaint {
+    background-color: #1fbbb4;
+    color: white;
+    margin-left: 10px;
+}
+
+
+a.ccc.question {
+    background-color: #047e79;
+    color: white;
+    margin-left: 10px;
+}
+
+a.ccc.suggestion {
+    background-color: #404040;
+    color: white;
+    margin-left: 10px;
+}
+
+a.ccc.support {
+    background-color: #fc6703a1;
+    color: white;
+    margin-left: 10px;
+}
+
+a.ccc.request {
+    background-color: #404040;
+    color: white;
+    margin-left: 10px;
+}
+
+.content_big_title {
+    margin-top: 15px !important;
+    color: #404040 !important;
+}
+
+
+.register_pic {
+    width: 42%;
+    min-width: 198px;
+    margin: 0 0 33px 8%;
+    position: relative;
+    max-width: 100%;
+    min-height: 1128px !important;
+    padding: 0;
+    background-color: #e5e9ea !important;
+    float: right;
+    background-image: url(../pic/crm-welcome.png) !important;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    border: 1px solid #c0c0c0d9;
+}
+/****************************  company colors different items ******************************************/
+

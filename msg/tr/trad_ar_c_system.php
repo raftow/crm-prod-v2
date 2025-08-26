@@ -1,0 +1,29 @@
+<?php
+	$trad["c_system"]["csystem.single"] = "نظام";
+	$trad["c_system"]["csystem.new"] = "جديد(ة)";
+	$trad["c_system"]["c_system"] = "الأنظمة";
+	$trad["c_system"]["code"] = "رمز النظام";
+	$trad["c_system"]["name"] = "مسمى النظام";
+	$trad["c_system"]["description"] = "وصف النظام";
+	$trad["c_system"]["field_count"] = "عدد الحقول";
+	$trad["c_system"]["field1_type"] = "نوع الحقل 1";
+	$trad["c_system"]["field1_name"] = "مسمى الحقل 1";
+	$trad["c_system"]["field2_type"] = "نوع الحقل 2";
+	$trad["c_system"]["field2_name"] = "مسمى الحقل 2";
+	$trad["c_system"]["field3_type"] = "نوع الحقل 3";
+	$trad["c_system"]["field3_name"] = "مسمى الحقل 3";
+	$trad["c_system"]["field4_type"] = "نوع الحقل 4";
+	$trad["c_system"]["field4_name"] = "مسمى الحقل 4";
+	$trad["c_system"]["field5_type"] = "نوع الحقل 5";
+	$trad["c_system"]["field5_name"] = "مسمى الحقل 5";
+	$trad["c_system"]["field6_type"] = "نوع الحقل 6";
+	$trad["c_system"]["field6_name"] = "مسمى الحقل 6";
+	$trad["c_system"]["field7_type"] = "نوع الحقل 7";
+	$trad["c_system"]["field7_name"] = "مسمى الحقل 7";
+	$trad["c_system"]["field8_type"] = "نوع الحقل 8";
+	$trad["c_system"]["field8_name"] = "مسمى الحقل 8";
+	$trad["c_system"]["field9_type"] = "نوع الحقل 9";
+	$trad["c_system"]["field9_name"] = "مسمى الحقل 9";
+	$trad["c_system"]["step1"] = "البيانات العامة";
+	$trad["c_system"]["step2"] = "الحقول الأخرى لعملاء النظام";
+?>

@@ -1,0 +1,9 @@
+.component.eh {
+    float: right;
+    width: 70%;
+    margin-right: 15%;
+    margin-top: 90px;
+    padding: 15px;
+    border: solid 1px silver;
+    font-family: math;
+}

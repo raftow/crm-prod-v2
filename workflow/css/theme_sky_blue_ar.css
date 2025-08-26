@@ -1,0 +1,15 @@
+.psd-picture {
+    float: right;
+    width: 35%;
+    margin-left: 2%;
+}
+
+.psd-bloc {
+    padding: 12px;
+}
+
+span.psd-title {
+    font-size: 36px;
+    /* margin-bottom: 10px; */
+    font-family: 'menu';
+}

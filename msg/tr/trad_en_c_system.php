@@ -1,0 +1,29 @@
+<?php
+	$trad["c_system"]["csystem.single"] = "C system";
+	$trad["c_system"]["csystem.new"] = "new";
+	$trad["c_system"]["c_system"] = "C systems";
+	$trad["c_system"]["code"] = "Code";
+	$trad["c_system"]["name"] = "C system name ar";
+	$trad["c_system"]["description"] = "C system desc ar";
+	$trad["c_system"]["field_count"] = "Field count";
+	$trad["c_system"]["field1_type"] = "Afield type";
+	$trad["c_system"]["field1_name"] = "Field name";
+	$trad["c_system"]["field2_type"] = "Afield type";
+	$trad["c_system"]["field2_name"] = "Field name";
+	$trad["c_system"]["field3_type"] = "Afield type";
+	$trad["c_system"]["field3_name"] = "Field name";
+	$trad["c_system"]["field4_type"] = "Afield type";
+	$trad["c_system"]["field4_name"] = "Field name";
+	$trad["c_system"]["field5_type"] = "Afield type";
+	$trad["c_system"]["field5_name"] = "Field name";
+	$trad["c_system"]["field6_type"] = "Afield type";
+	$trad["c_system"]["field6_name"] = "Field name";
+	$trad["c_system"]["field7_type"] = "Afield type";
+	$trad["c_system"]["field7_name"] = "Field name";
+	$trad["c_system"]["field8_type"] = "Afield type";
+	$trad["c_system"]["field8_name"] = "Field name";
+	$trad["c_system"]["field9_type"] = "Afield type";
+	$trad["c_system"]["field9_name"] = "Field name";
+	$trad["c_system"]["step1"] = "general info";
+	$trad["c_system"]["step2"] = "other fields";
+?>
