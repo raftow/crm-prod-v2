@@ -12,7 +12,7 @@
         
         
         //if(!$theCustomer) die("this ticket is lost");
-        $my_status = 1;
+        $my_status = 3;
         $my_status_decoded = "نشط";//$theCustomer->getCustomerStatus("ar");
         
         // test of ->showAttribute(..) after ->set(..)
@@ -32,8 +32,10 @@
                 <div class='front_bloc hzm_crm_bloc ticket status_<?php echo $my_status; ?>'>
                         <div class='mb_long_title my_customer'> 
                                 <div class='my_crm_ticket'>
-                                <?php echo $ref_num_label ?> <div class='crm_ticket_num'><?php echo $theCustomer->getVal("ref_num"); ?> </div>
-                                <?php echo $org_name_label ?> <div class='crm_org_name'><?php echo $theCustomer->getVal("org_name"); ?> </div>
+                                <div class='crm_div'><?php echo $ref_num_label ?> </div>
+                                <div class='crm_div crm_ticket_num'><?php echo $theCustomer->getVal("ref_num"); ?> </div>
+                                <div class='crm_div'><?php echo $org_name_label ?> </div>
+                                <div class='crm_div crm_org_name'><?php echo $theCustomer->getVal("org_name"); ?> </div>
                                 </div>
                                 <div class='my_crm_ticket fleft'>
                                        <div class='request_status status_<?php echo $my_status; ?>' ><?php echo $my_status_decoded; ?> </div>

@@ -967,14 +967,19 @@ span.prog-name.prog-archive {
         margin: 0 !important;
 }
 
+.my_crm_ticket.fleft {
+    width: 19%;
+    margin-top: -5px;
+}
+
 .my_crm_ticket {
-        margin-right: 1%;
-        margin-left: 0;
-        font-size: 14px;
-        padding-top: 10px;
-        font-weight: normal;
-        width: 49%;
-        float: right;
+    margin-right: 1%;
+    margin-left: 0;
+    font-size: 14px;
+    padding-top: 10px;
+    font-weight: normal;
+    width: 79%;
+    float: right;
 }
 
 .crm_ticket_num {
@@ -3239,4 +3244,21 @@ input.form-control.customer-login {
     float: right;
     background-image: url(../../lib/images/sms.png);
     background-size: contain;
+}
+
+.crm_org_name {
+    display: inline;
+    padding: 2px 5px;
+    background-color: #1b9f99;
+    font-size: 12px;
+    font-weight: normal;
+    font-family: system-ui;
+    color: white;
+    margin-left: 9px;
+    margin-right: 9px;
+    white-space: nowrap;
+}
+
+.crm_div {
+    float: right;
 }

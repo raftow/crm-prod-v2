@@ -170,8 +170,12 @@ if (!$liste_obj) {
                                         $objTempForInternalSearch->select_visibilite_horizontale();
                                         $objTempForInternal_ids_arr = AfwLoadHelper::loadManyIds($objTempForInternalSearch);
                                         $objTempForInternal_ids_txt = implode(",", $objTempForInternal_ids_arr);
-                                        if (!$objTempForInternal_ids_txt) $objTempForInternal_ids_txt = "0";
-                                        $where_col = "$nom_col in (" . $objTempForInternal_ids_txt . ")";
+                                        if (!$objTempForInternal_ids_txt) 
+                                        {
+                                                $where_col = "FALSE";
+                                                $objTempForInternal_ids_txt = "0";
+                                        }
+                                        else $where_col = "$nom_col in (" . $objTempForInternal_ids_txt . ")";
                                 } else {
                                         // die("DBG-qsearch_by_text::getClauseWhere for $nom_col [$my_oper] (qsearch_by_text=$qsearch_by_text)");
                                         list($where_col, $fixm_col, $cond_phrase) = AfwSqlHelper::getClauseWhere($obj, "me." . $nom_col, $my_oper,  $qsearch_by_text, "", $lang);
@@ -506,6 +510,7 @@ if (true) {
                                                                         $ids = "";
                                                                         $ids_count = 0;
                                                                         $maxRecordsUmsCheck = $obj->maxRecordsUmsCheck();
+                                                                        $repeat_retrieve_header = false;//$obj->repeatRetrieveHeader();
                                                                         $umsCheckDisabledInRetrieveMode = $obj->umsCheckDisabledInRetrieveMode();
                                                                         if ($maxRecordsUmsCheck > 100) $maxRecordsUmsCheck = 100;
                                                                         foreach ($data as $id => $tuple) 
@@ -515,6 +520,16 @@ if (true) {
                                                                                 if ($ids) $ids .= ",";
                                                                                 $ids .= $id;
                                                                                 $ids_count++;
+                                                                                if($repeat_retrieve_header and (($ids_count % $repeat_retrieve_header) == 0))
+                                                                                {
+                                                                                        ?>
+                                                                                        <thead>
+                                                                                                <tr>
+                                                                                                        <?= $datatable_header ?>
+                                                                                                </tr>
+                                                                                        </thead>
+                                                                                        <?php
+                                                                                }
                                                                                 //}
                                                                                 if ($cl_tr == $class_td2) $cl_tr = $class_td1;
                                                                                 else $cl_tr = $class_td2;
@@ -585,7 +600,6 @@ if (true) {
 
                                                                                                         if (!$can) 
                                                                                                         {
-                                                                                                                if(!$cant_do_action_log_arr[$action_item]) $cant_do_action_log_arr[$action_item] = "but reason not explained";
                                                                                                                 $cant_do_action_log .= $cant_do_action_log_arr[$action_item]." ";
                                                                                                         }
 
